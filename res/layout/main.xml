@@ -6,8 +6,9 @@
 	android:layout_height="fill_parent">
 	<com.google.ads.AdView android:id="@+id/adView"
 		android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:minHeight="50dip"
 		android:layout_alignParentTop="true" ads:adUnitId="ca-app-pub-4652242440717794/6809836787"
-		ads:adSize="BANNER" ads:loadAdOnCreate="false" />
+		ads:adSize="BANNER" ads:loadAdOnCreate="true" />
 
 
     <TableRow android:layout_alignParentBottom="true"
