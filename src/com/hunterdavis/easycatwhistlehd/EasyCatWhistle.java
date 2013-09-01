@@ -101,6 +101,7 @@ public class EasyCatWhistle extends Activity {
                 catview.setImageResource(R.drawable.nine);
                 break;
             case 10:
+            case 0:
                 catview.setImageResource(R.drawable.ten);
                 break;
             default:

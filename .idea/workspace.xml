@@ -94,7 +94,7 @@
       <file leaf-file-name="EasyCatWhistle.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/hunterdavis/easycatwhistlehd/EasyCatWhistle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="28" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.26780626" vertical-offset="526" max-vertical-offset="2380">
+            <state line="103" column="19" selection-start="3197" selection-end="3197" vertical-scroll-proportion="0.8974359" vertical-offset="1087" max-vertical-offset="2397">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,8 +140,8 @@
         <option value="$PROJECT_DIR$/src/com/hunterdavis/easycatwhistle/EasyCatWhistle.java" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/hunterdavis/easycatwhistlehd/EasyCatWhistle.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/src/com/hunterdavis/easycatwhistlehd/EasyCatWhistle.java" />
       </list>
     </option>
   </component>
@@ -421,7 +421,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="0" width="1580" height="860" extended-state="0" />
+    <frame x="10" y="0" width="1580" height="860" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -583,7 +583,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hunterdavis/easycatwhistlehd/EasyCatWhistle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="28" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.26780626" vertical-offset="526" max-vertical-offset="2380">
+        <state line="103" column="19" selection-start="3197" selection-end="3197" vertical-scroll-proportion="0.8974359" vertical-offset="1087" max-vertical-offset="2397">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
