@@ -6,7 +6,7 @@
 	android:layout_height="fill_parent">
 	<com.google.ads.AdView android:id="@+id/adView"
 		android:layout_width="fill_parent" android:layout_height="wrap_content"
-		android:layout_alignParentTop="true" ads:adUnitId="a14dfa6f3d47ccc"
+		android:layout_alignParentTop="true" ads:adUnitId="ca-app-pub-4652242440717794/6809836787"
 		ads:adSize="BANNER" ads:loadAdOnCreate="false" />
 
 
@@ -23,7 +23,7 @@
             android:layout_alignParentLeft="true">
 
         <SeekBar
-                android:layout_width="wrap_content"
+                android:layout_width="30dip"
                 android:layout_height="fill_parent"
                 android:id="@+id/seekBar"/>
 
