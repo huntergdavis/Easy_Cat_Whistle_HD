@@ -7,12 +7,19 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.SeekBar;
+import android.widget.TextView;
 
 import com.google.ads.AdRequest;
 import com.google.ads.AdView;
 import com.hunterdavis.easycatwhistle.R;
 
 public class EasyCatWhistle extends Activity {
+
+    private static float currentFrequency = 26000;
+
+
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -23,65 +30,85 @@ public class EasyCatWhistle extends Activity {
 		// listener for frequency button
 		OnClickListener frequencyListner = new OnClickListener() {
 			public void onClick(View v) {
-				EditText freqText = (EditText) findViewById(R.id.freqbonus);
-				String frequency = freqText.getText().toString();
-				if (frequency.length() > 0) {
-					float localFreqValue = Float.valueOf(frequency);
-					playFrequency(v.getContext(), localFreqValue);
-				}
+				playFrequency(v.getContext(), currentFrequency);
 
 			}
 		};
-		
-		// listener for frequency button
-		OnClickListener dogOneListener = new OnClickListener() {
-			public void onClick(View v) {
-				playFrequency(v.getContext(), 26000);
-			}
-		};
-		
-		// listener for frequency button 
-		OnClickListener dogTwoListener = new OnClickListener() {
-			public void onClick(View v) {
-				playFrequency(v.getContext(), 27000);
-			}
-		};
-		
-		// listener for frequency button
-		OnClickListener dogThreeListener = new OnClickListener() {
-			public void onClick(View v) {
-				playFrequency(v.getContext(), 63000);
-			}
-		};
-		
-		// listener for frequency button
-		OnClickListener dogFourListener = new OnClickListener() {
-			public void onClick(View v) {
-				playFrequency(v.getContext(), 64000);
-			}
-		};
-		
-		
-		
-		// frequency button
-		Button freqButton = (Button) findViewById(R.id.freqbutton);
-		freqButton.setOnClickListener(frequencyListner);
-		
-		// Whistle Button 1-4
-		Button dogOneButton = (Button) findViewById(R.id.dogone);
-		dogOneButton.setOnClickListener(dogOneListener);
-		Button dogTwoButton = (Button) findViewById(R.id.dogtwo);
-		dogTwoButton.setOnClickListener(dogTwoListener);
-		Button dogThreeButton = (Button) findViewById(R.id.dogthree);
-		dogThreeButton.setOnClickListener(dogThreeListener);
-		Button dogFourButton = (Button) findViewById(R.id.dogfour);
-		dogFourButton.setOnClickListener(dogFourListener);
-		
+
+        ImageView catview = (ImageView)findViewById(R.id.imageView);
+        catview.setOnClickListener(frequencyListner);
+
+        TextView instview = (TextView)findViewById(R.id.textView1);
+        instview.setOnClickListener(frequencyListner);
+
+
+        SeekBar seek=(SeekBar) findViewById(R.id.seekBar);
+        seek.setMax(100);
+        seek.setProgress(5);
+        seek.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+            }
+
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int progress,boolean fromUser) {
+                // 26000 - 64000 = 38000 spread / 10 = 26000 + 380- * position
+                currentFrequency = 26000 + (380 * progress);
+                setCatPhoto(seekBar.getContext(), progress);
+
+            }
+        });
 		
 		// Look up the AdView as a resource and load a request.
 		AdView adView = (AdView) this.findViewById(R.id.adView);
 		adView.loadAd(new AdRequest());
         
+    }
+
+    public void setCatPhoto(Context context, int number) {
+        ImageView catview = (ImageView)findViewById(R.id.imageView);
+
+        switch (number)
+        {
+            case 1:
+                catview.setImageResource(R.drawable.one);
+                break;
+            case 2:
+                catview.setImageResource(R.drawable.two);
+                break;
+            case 3:
+                catview.setImageResource(R.drawable.three);
+                break;
+            case 4:
+                catview.setImageResource(R.drawable.four);
+                break;
+            case 5:
+                catview.setImageResource(R.drawable.five);
+                break;
+            case 6:
+                catview.setImageResource(R.drawable.six);
+                break;
+            case 7:
+                catview.setImageResource(R.drawable.seven);
+                break;
+            case 8:
+                catview.setImageResource(R.drawable.eight);
+                break;
+            case 9:
+                catview.setImageResource(R.drawable.nine);
+                break;
+            case 10:
+                catview.setImageResource(R.drawable.ten);
+                break;
+            default:
+                catview.setImageResource(R.drawable.one);
+                break;
+        }
     }
     
 	public void playFrequency(Context context, float frequency) {
