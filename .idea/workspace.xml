@@ -14,7 +14,7 @@
     <layouts>
       <layout url="file://$PROJECT_DIR$/res/layout/main.xml">
         <config>
-          <device>Nexus 10</device>
+          <device>nex10</device>
           <theme>@android:style/Theme</theme>
         </config>
       </layout>
@@ -91,10 +91,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EasyCatWhistle.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="EasyCatWhistle.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/hunterdavis/easycatwhistlehd/EasyCatWhistle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="28" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.0" vertical-offset="526" max-vertical-offset="2380">
+            <state line="44" column="28" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.26780626" vertical-offset="526" max-vertical-offset="2380">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,10 +102,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="47" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.5316265" vertical-offset="242" max-vertical-offset="935">
+            <state line="26" column="16" selection-start="1007" selection-end="1007" vertical-scroll-proportion="-9.56" vertical-offset="203" max-vertical-offset="986">
               <folding />
             </state>
           </provider>
@@ -428,7 +428,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3286445" sideWeight="0.68406594" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286445" sideWeight="0.68406594" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -556,23 +556,38 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hunterdavis/easycatwhistlehd/EasyCatWhistle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="28" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.0" vertical-offset="526" max-vertical-offset="2380">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/deploy/layout-2013-08-31-231820.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/layout-2013-08-31-231840.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/layout-2013-08-31-231859.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="47" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.5316265" vertical-offset="242" max-vertical-offset="935">
+        <state line="26" column="16" selection-start="1007" selection-end="1007" vertical-scroll-proportion="-9.56" vertical-offset="203" max-vertical-offset="986">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hunterdavis/easycatwhistlehd/EasyCatWhistle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="28" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.26780626" vertical-offset="526" max-vertical-offset="2380">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
