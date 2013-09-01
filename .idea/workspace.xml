@@ -90,31 +90,7 @@
     <favorites_list name="Easy_Cat_Whistle_HD" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="EasyCatWhistle.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/hunterdavis/easycatwhistlehd/EasyCatWhistle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="19" selection-start="3197" selection-end="3197" vertical-scroll-proportion="0.8974359" vertical-offset="1087" max-vertical-offset="2397">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="16" selection-start="1007" selection-end="1007" vertical-scroll-proportion="-9.56" vertical-offset="203" max-vertical-offset="986">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -266,6 +242,7 @@
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="nex10" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
   </component>
@@ -421,8 +398,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="0" width="1580" height="860" extended-state="1" />
-    <editor active="true" />
+    <frame x="10" y="0" width="1580" height="860" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -442,7 +419,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24232736" sideWeight="0.68406594" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24232736" sideWeight="0.68406594" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -542,15 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="186" selection-end="186" vertical-scroll-proportion="0.108050846" vertical-offset="0" max-vertical-offset="476">
-          <folding>
-            <element signature="e#581#599#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deploy/device-2013-08-31-225117.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -571,9 +539,18 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hunterdavis/easycatwhistlehd/EasyCatWhistle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="19" selection-start="3197" selection-end="3197" vertical-scroll-proportion="0.8974359" vertical-offset="1087" max-vertical-offset="2397">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="16" selection-start="1007" selection-end="1007" vertical-scroll-proportion="-9.56" vertical-offset="203" max-vertical-offset="986">
+        <state line="26" column="16" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.66566265" vertical-offset="0" max-vertical-offset="986">
           <folding />
         </state>
       </provider>
@@ -581,12 +558,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hunterdavis/easycatwhistlehd/EasyCatWhistle.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="19" selection-start="3197" selection-end="3197" vertical-scroll-proportion="0.8974359" vertical-offset="1087" max-vertical-offset="2397">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="3" column="29" selection-start="186" selection-end="186" vertical-scroll-proportion="0.072649576" vertical-offset="0" max-vertical-offset="702">
+          <folding />
         </state>
       </provider>
     </entry>
